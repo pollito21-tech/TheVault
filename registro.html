@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/registro.css">
+    <link rel="stylesheet" href="./css/estilos-generales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="barra-navegacion">
+        <div class="logo">
+            <img src="img/logo-2.png" alt="">
+        </div>
+        <div class="paginas">
+            <ul>
+                <li>
+                    <a href="index.html" style="--clr:#1e9bff"><span>Tienda</span><i></i></a>
+                </li>
+                <li>
+                    <a href="nosotros.html" style="--clr:#1e9bff"><span>Nosotros</span><i></i></a>
+                </li>
+                <li>
+                    <a href="colecciones.html" style="--clr:#1e9bff"><span>Colecciones</span><i></i></a>
+                </li>
+                <li>
+                    <a href="registro.html" style="--clr:#1e9bff"><span>Registro</span><i></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<div class="glow-master">
+        <div class="glow">
+            <div class="registration-form">
+                <h2>Crear nueva cuenta</h2>
+                <form>
+                    <div class="input-group">
+                <label for="fullname"><i class="fa fa-user"></i> Nombre completo</label>
+                <input type="text" placeholder="ingresas tu nombre y apellido" id="fullname" name="fullname" required>
+            </div>
+            <div class="input-group">
+                <label for="email"><i class="fa fa-envelope"></i>Correo electrónico</label>
+                <input type="email" placeholder="ingresa tu Correo" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password"><i class="fa fa-lock"></i> Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password"><i class="fa fa-lock"></i> Confirmar Contraseña</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="input-group">
+                <label for="phone"><i class="fa fa-phone"></i> Numero de Telefono</label>
+                <input type="tel" placeholder="ingresas tu Numero de Telefono" id="phone" name="phone" required>
+            </div>
+            <div class="input-group">
+                <label><i class="fa fa-crown"></i> Tipo de Suscripcion</label>
+                <div class="subscription-options">
+                    <label>
+                        <input type="radio" name="subscription" value="gold" required> 
+                        Miembro Gold (1 año: descuentos, acceso anticipado, envío gratuito)
+                    </label>
+                    <label>
+                        <input type="radio" name="subscription" value="platinium" required> 
+                        Miembro Platino (Mensual: Descuentos, Envío Gratis)
+                    </label>
+                </div>
+            </div>
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" name="remember" required> Recordar Datos
+                </label>
+            </div>
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" name="newsletter"> Suscríbete al boletín informativo                </label>
+            </div>
+            <button type="submit">Registro</button>
+            </form>
+            </div>
+        </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="foter-row">
+                <div class="social-links">
+                    <ul>
+                        <li class="facebook">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="twitter">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="instagram">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="whatsapp">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Enlaces utiles</h4>
+                    <ul>
+                        <li><a href="nosotros.html">Local</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Informacion de contacto</h4>
+                    <ul>
+                        <li><a href="#">Direccion: 123 Rue de la Mode 75001 París, Francia</a></li>
+                        <li><a href="#">Telefono: +33 1 23 45 67 89</a></li>
+                        <li><a href="#">Correo electronico: contacto @thevaultparis.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Terminos de uso</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

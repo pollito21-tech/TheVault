@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+/* .----------------section-------------- */
+#nosotros-primeros {
+    background:transparent;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px;
+    border: 5px solid #075991;
+
+}
+#nosotros-curadaria {
+    background:transparent;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px;
+    border: 5px solid #075991;
+
+}
+#nosotros-tienda{
+    background:transparent;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px;
+    border: 5px solid #075991;
+}
+#nosotros-imnovacion{
+    background:transparent;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px;
+    border: 5px solid #075991;
+}
+#nosotros-comunidad{
+    background:transparent;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px;
+    border: 5px solid #075991;
+}
+.about{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.about p{
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #09d1c7;
+    transition: all 1s;
+}
+.about h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+    color: #d0ff00;
+    text-shadow: 0 0 15px;
+    transition: all 1s;
+}
+
+
+.about-2{
+    display: flex;
+    
+}
+
+.about-2 img{
+    
+    height: 350px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .-------------------------cambios-pantalla------------------------ */
+@media (max-width:930px){
+    
+    .about-2 img{
+        display: none;
+    }
+    
+    
+    .footer-row{
+        display: flex;   
+        flex-direction: column;
+        }
+    .footer-row{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    }
+    .footer-links ul{
+        list-style: none;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    
+}
+
+
+@media (min-width:1050px) and (max-width:1900px){
+    
+    .about p{
+        font-size: larger;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        color: #09d1c7;
+        text-shadow: 0 0 10px;
+    }
+    .about h2{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        font-style: normal;
+        color: #d0ff00;
+        
+    }
+    
+    
+    .about-2{
+        display: flex;
+        
+    }
+}
+
+@media (min-width:1901px) and (max-width:3900px){
+    
+    .about p{
+        font-size: larger;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        font-style: normal;
+        color: #09d1c7;
+        
+    }
+    .about h2{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 45px;
+        font-style: normal;
+        color: #d0ff00;
+        text-shadow: 0 0 15px;
+    }
+    
+    
+    .about-2{
+        display: flex;
+        
+    }
+}
+

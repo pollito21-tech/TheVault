@@ -1,0 +1,101 @@
+/* ------------------cuestionario------------- */
+
+.registration-form {
+    background: linear-gradient(0deg, black, rgb(44,44,44));
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.glow-master{
+    width: 335px;
+    margin: auto;
+}
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"],
+.input-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5d2b72;
+    color: white;
+}
+
+.input-group input[type="checkbox"],
+.input-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.subscription-options {
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #a020f0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #c654ff;
+}
+
+.glow {
+    position: relative;
+    padding: 5px; /* Añadimos un poco de padding para el efecto glow */
+    border-radius: 10px;
+}
+
+.glow::before, .glow::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(45deg, #e6fb04,#6f00ff, #ff6600, #00ff66, #00ffff, #ff3300,
+    #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff );
+    background-size: 400%;
+    width: calc(99.2% + 5px);
+    height: calc(99.5% + 5px);
+    z-index: -1;
+    border-radius: 10px; /* Hace que el borde siga la forma redondeada */
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.glow::after{
+    filter: blur(40px);
+}
